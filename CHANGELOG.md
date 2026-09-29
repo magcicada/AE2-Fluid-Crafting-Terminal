@@ -10,12 +10,14 @@ Loader-specific release notes live in each module's `CHANGELOG.md`; the release 
 - Added JEI/EMI virtual fluid recipe lookup, configurable from the Myotus terminal config tab.
 
 ### Fixes
+- Fixed a crash with newer JEI versions when loading fluid recipe and usage lookup.
 - Fixed virtual fluid ghost ingredients being returned from AE2 pattern slots when closing a terminal.
 - Enforced the virtual-fluid recipe blacklist for recipe transfer, manual crafting, and crafting pattern encoding while leaving real buckets valid.
 - Fixed FastSuite recipe lookup paths bypassing the virtual-fluid recipe blacklist when matching cached recipes.
 
 ### Dependencies
 - Updated Myotus to `19.1.1`.
+- Updated JEI to `19.57.0.446`; requires JEI `19.55.0.432` or newer when installed.
 
 ## 26.0.0 (Minecraft 26.1.2)
 

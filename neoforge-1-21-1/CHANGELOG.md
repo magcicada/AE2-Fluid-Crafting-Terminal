@@ -9,6 +9,7 @@
 - Added JEI/EMI/REI virtual fluid recipe lookup, configurable from the Myotus terminal config tab.
 
 ### Fixes
+- Fixed a crash with newer JEI versions when loading fluid recipe and usage lookup.
 - Hide Extended Terminal crafting output when a blacklisted recipe uses virtual fluid, while keeping real-bucket recipes visible.
 - Included filled-bucket recipes when looking up native fluids in EMI.
 - Ported REI recipe/usage lookup for virtual fluids, combining fluid and filled-bucket results.
@@ -21,3 +22,4 @@
 
 ### Dependencies
 - Updated Myotus to `19.1.1`.
+- Updated JEI to `19.57.0.446`; requires JEI `19.55.0.432` or newer when installed.
